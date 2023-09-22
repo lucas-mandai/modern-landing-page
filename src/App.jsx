@@ -1,7 +1,19 @@
+import Nav from './components/Nav';
+import Hero from './sections/Hero';
+import Footer from './sections/Footer';
+
 export default function App() {
   return (
-    <h1 className="text-3xl text-gradient">
-      Hello world!
-    </h1>
+    <div className='bg-primary text-white'>
+      <header className='px-12 py-3 bg-secondary'>
+        <Nav />
+      </header>
+      <section>
+        <Hero />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   )
 }
