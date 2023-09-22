@@ -5,7 +5,7 @@ import Footer from './sections/Footer';
 export default function App() {
   return (
     <div className='bg-primary text-white'>
-      <header className='px-12 py-3 bg-secondary'>
+      <header className='px-12 py-3'>
         <Nav />
       </header>
       <section>
