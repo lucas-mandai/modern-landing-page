@@ -4,14 +4,14 @@ import Footer from './sections/Footer';
 
 export default function App() {
   return (
-    <div className='bg-primary text-white'>
+    <div className='bg-primary text-white w-full overflow-hidden'>
       <header className='px-12 py-3'>
         <Nav />
       </header>
-      <section>
+      <section className='pl-12 py-12 '>
         <Hero />
       </section>
-      <footer>
+      <footer className='px-12'>
         <Footer />
       </footer>
     </div>

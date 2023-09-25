@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <nav className='flex flex-1 justify-between items-center'>
-        <img src={logo} alt="Logo" className='h-[60px]' />
+        <img src={logo} alt="Logo" className='h-[32px]' />
 
         <ul className='list-none sm:flex hidden  gap-5'>
             {navLinks.map((nav, index) => (
