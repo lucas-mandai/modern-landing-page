@@ -1,23 +1,30 @@
-import { robot } from '../assets'
+import { robot, arrowRight } from '../assets'
+import Button from '../components/Button'
 
 const Hero = () => {
   return (
     <>
     <div className="flex">
-      <div className="flex flex-col max-w-2xl">
+      <div className="flex flex-col max-w-xl">
         
-        <div className="self-start mb-6 py-1 px-3 rounded-sm bg-gradient-to-r from-teal-400 to-sky-700">
+        <div className="font-bold self-start mb-6 py-1 px-3 rounded-sm bg-gradient-to-r from-teal-400 to-sky-700">
           Welcome to my Portfolio
         </div>
 
-        <h1 className="font-montserrat mb-6">
-          Hi! I'm Lucas <span className="text-gradient">Web Dev</span> 
+        <h1 className="font-montserrat font-bold">
+          Hi! I'm Lucas 
         </h1>
 
-        <p>
+        <h1 className="text-gradient font-bold mt-3 mb-9">
+          Web Developer
+        </h1> 
+
+        <p className='mb-9'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         </p>
 
+        <Button label='Call to action' iconURL={arrowRight} />
+        
       </div>
       
       <div className='flex flex-1'>
